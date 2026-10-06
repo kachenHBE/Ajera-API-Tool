@@ -1,4 +1,6 @@
-python
-dotenv
-asyncio
-ajera
+python==3.12
+asyncio==4.0.0
+ajera==0.5.0
+python-dotenv==1.2.4
+pandas==3.0.6
+openpyxl==3.1.5

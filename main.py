@@ -1,6 +1,7 @@
+import os
 import asyncio
 from session_setup import create_api_session
-from ajera import AjeraClient
+from ajera import AsyncAjeraClient
 
 async def main():
     print("main")
@@ -14,7 +15,7 @@ async def main():
         for total in await asyncio.gather(
             *(totals(project.project_key) for project in projects)
         ):
-            print(total.projecT_key, total.totals)
+            print(total.project_key, total.totals)
 
 
 if __name__ == "__main__":
