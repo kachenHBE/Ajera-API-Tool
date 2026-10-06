@@ -1,3 +1,12 @@
+"""
+Filename: session_setup.py
+Description: Establish Ajera API connection
+Author: Kai Achen
+Last Updated: 10/06/2026
+Inputs: 
+Outputs: 
+"""
+
 from dotenv import load_dotenv
 
 load_dotenv()
